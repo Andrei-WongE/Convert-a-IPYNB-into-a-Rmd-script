@@ -1,8 +1,7 @@
 
 # Convert a Jupyter Notebook into a R studio script ----------------------------
 
-# ├ Generate Paths -------------------------------------------------------------
-
+# ├ Generate Paths and detect Jupyter files ------------------------------------
 
 dir_files <- dir(here::here("SDG_related_indicators", "SDG_indicators"), 
                  pattern = ".ipynb",
